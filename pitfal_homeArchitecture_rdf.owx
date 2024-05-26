@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.homearchitecture.com"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.homearchitecture.com">
+    <Prefix name="" IRI="http://www.homearchitecture.com/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="homeOntology" IRI="http://purl.bioontology.org/ontology/RCD/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>this ontology is mainly made for the houses in PAkistan according to the CLiamte of Pakistan</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gK"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gL"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gM"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gO"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gP"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gQ"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gS"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0gT"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="homeOntology:Ua0h8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlpineClimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AridClimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingOrientationAndSolarExposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DayLighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalFactors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalTopography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrevailingWinds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProximityToWaterBodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiAridClimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureClimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TiltAngle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VentilationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindowOrientation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasInternalWalls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasLocalTopography"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasNaturalVentilation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasProximityToWaterBodies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasShading"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasTiltAngel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasWindowOrientation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasprevailingWinds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExternalWalls"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ArtificialShading"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AzimuthAngle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CrossVentilation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DayLightHArvestingSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EnergyRecoveryVentilator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasRoofTimbers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasWeatherProofing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MaterialType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NaturalShading"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RoofTiltAngle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SkyLightArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StackEffect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SustainableMaterials"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ThermalProperties"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WindowArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WindowGlazingType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WindowTiltAngle"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gL"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gM"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gO"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gP"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0gQ"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="homeOntology:Ua0h8"/>
+        <Class IRI="#VentilationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlpineClimate"/>
+        <Class IRI="#Climate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AridClimate"/>
+        <Class IRI="#Climate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalTopography"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientation"/>
+        <Class IRI="#BuildingOrientationAndSolarExposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrevailingWinds"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProximityToWaterBodies"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiAridClimate"/>
+        <Class IRI="#Climate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shading"/>
+        <Class IRI="#BuildingOrientationAndSolarExposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureClimate"/>
+        <Class IRI="#Climate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TiltAngle"/>
+        <Class IRI="#BuildingOrientationAndSolarExposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindowOrientation"/>
+        <Class IRI="#DayLighting"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="homeOntology:Ua0gL"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI="homeOntology:Ua0gO"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gP"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gQ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AlpineClimate"/>
+        <Class IRI="#AridClimate"/>
+        <Class IRI="#SemiAridClimate"/>
+        <Class IRI="#TemperatureClimate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LocalTopography"/>
+        <Class IRI="#PrevailingWinds"/>
+        <Class IRI="#ProximityToWaterBodies"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Orientation"/>
+        <Class IRI="#Shading"/>
+        <Class IRI="#TiltAngle"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HasProximityToWaterBodies"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasLocalTopography"/>
+        <ObjectProperty IRI="#HasProximityToWaterBodies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasLocalTopography"/>
+        <ObjectProperty IRI="#HasprevailingWinds"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasInternalWalls"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasLocalTopography"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasNaturalVentilation"/>
+        <Class IRI="#VentilationSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasProximityToWaterBodies"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasShading"/>
+        <Class IRI="#Orientation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasTiltAngel"/>
+        <Class IRI="#Orientation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasWindowOrientation"/>
+        <Class IRI="#DayLighting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExternalWalls"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasInternalWalls"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasLocalTopography"/>
+        <Class IRI="#LocalTopography"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasNaturalVentilation"/>
+        <Class abbreviatedIRI="homeOntology:Ua0h8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasProximityToWaterBodies"/>
+        <Class IRI="#ProximityToWaterBodies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasShading"/>
+        <Class IRI="#Shading"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasTiltAngel"/>
+        <Class IRI="#TiltAngle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasWindowOrientation"/>
+        <Class IRI="#WindowOrientation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasprevailingWinds"/>
+        <Class IRI="#PrevailingWinds"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExternalWalls"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gN"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ArtificialShading"/>
+        <Class IRI="#Shading"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#AzimuthAngle"/>
+        <Class IRI="#Orientation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CrossVentilation"/>
+        <Class IRI="#VentilationSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DayLightHArvestingSystem"/>
+        <Class IRI="#DayLighting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EnergyRecoveryVentilator"/>
+        <Class IRI="#VentilationSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasRoofTimbers"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasWeatherProofing"/>
+        <Class abbreviatedIRI="homeOntology:Ua0gS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MaterialType"/>
+        <Class IRI="#BuildingMaterial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NaturalShading"/>
+        <Class IRI="#Shading"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#RoofTiltAngle"/>
+        <Class IRI="#TiltAngle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SkyLightArea"/>
+        <Class IRI="#DayLighting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#StackEffect"/>
+        <Class IRI="#VentilationSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SustainableMaterials"/>
+        <Class IRI="#BuildingMaterial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ThermalProperties"/>
+        <Class IRI="#BuildingMaterial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WindowArea"/>
+        <Class IRI="#WindowOrientation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WindowGlazingType"/>
+        <Class IRI="#WindowOrientation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WindowTiltAngle"/>
+        <Class IRI="#TiltAngle"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ArtificialShading"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#AzimuthAngle"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CrossVentilation"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DayLightHArvestingSystem"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EnergyRecoveryVentilator"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasRoofTimbers"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasWeatherProofing"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MaterialType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NaturalShading"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#RoofTiltAngle"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SkyLightArea"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#StackEffect"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SustainableMaterials"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ThermalProperties"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WindowArea"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WindowGlazingType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WindowTiltAngle"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
